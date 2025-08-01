@@ -1,0 +1,1 @@
+La idea de este proyecto es armar una interfaz donde el usuario/empresa cargue documentos con contexto sobre su negocio y en base a eso arme un chatbot contextualizado
