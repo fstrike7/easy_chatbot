@@ -32,8 +32,34 @@ Un microservicio API que permite crear un chatbot contextualizado a partir de do
 - Ollama corriendo en segundo plano
 - `poetry install` para instalar dependencias
 
-### 🐳 Docker
+
+### Uso
+
+Instalar dependencias y levantar entorno virtual
+```
+poetry install
+poetry env activate
+```
+
+Correr servidor
+```bash
+uvicorn app.main:app --reload --port 8000
+```
+
+Pruebas en Postman o bash
+```bash
+curl -X POST http://localhost:8000/upload \
+  -F "file=@/ruta/a/documento.pdf" \
+  -F "user_id=test_user"
+
+curl -X POST http://localhost:8000/chat \
+  -F "message=¿De qué trata el documento?" \
+  -F "user_id=test_user"
+```
+
+### 🐳 Docker (TODO)
 
 ```bash
-docker build -t studychatbot .
-docker run -p 8000:8000 studychatbot
+docker build -t easy_chatbot .
+docker run -p 8000:8000 easy_chatbot
+```
