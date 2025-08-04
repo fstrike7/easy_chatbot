@@ -8,3 +8,5 @@ https://youtu.be/0jOlZpFFxCE
 
 https://github.com/NVIDIA/GenerativeAIExamples/blob/main/RAG/notebooks/langchain/RAG_for_HTML_docs_with_Langchain_NVIDIA_AI_Endpoints.ipynb
 
+LangGraph Course - freecodecamp
+https://github.com/iamvaibhavmehra/LangGraph-Course-freeCodeCamp
